@@ -620,7 +620,7 @@ public class RecipientEditTextView extends MultiAutoCompleteTextView implements
      * @param paint The paint to use to draw the bitmap.
      */
     private Bitmap createUnselectedChip(RecipientEntry contact, TextPaint paint) {
-        paint.setColor(getContext().getResources().getColor(android.R.color.black));
+        paint.setColor(getContext().getResources().getColor(android.R.color.white));
         ChipBitmapContainer bitmapContainer = createChipBitmap(contact, paint,
                 getChipBackground(contact), getDefaultChipBackgroundColor(contact));
 
